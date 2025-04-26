@@ -1,0 +1,242 @@
+{
+    "activity1": {
+        "name": "Watch a Comedy Movie",
+        "duration": 90,
+        "cost": 10.0,
+        "people": 1,
+        "mood": "happy",
+        "description": "Laugh out loud with a funny movie at home or in a theater."
+    },
+    "activity2": {
+        "name": "Take a Nap",
+        "duration": 30,
+        "cost": 0.0,
+        "people": 1,
+        "mood": "tired",
+        "description": "Rest and recharge with a short nap."
+    },
+    "activity3": {
+        "name": "Go Hiking",
+        "duration": 120,
+        "cost": 5.0,
+        "people": 2,
+        "mood": "adventurous",
+        "description": "Explore a nearby trail and enjoy nature."
+    },
+    "activity4": {
+        "name": "Meditate",
+        "duration": 20,
+        "cost": 0.0,
+        "people": 1,
+        "mood": "relaxed",
+        "description": "Find inner peace with a guided meditation session."
+    },
+    "activity5": {
+        "name": "Board Game Night",
+        "duration": 60,
+        "cost": 0.0,
+        "people": 4,
+        "mood": "social",
+        "description": "Gather friends for a fun board game session."
+    },
+    "activity6": {
+        "name": "Visit a Museum",
+        "duration": 90,
+        "cost": 15.0,
+        "people": 2,
+        "mood": "happy",
+        "description": "Explore art or history at a local museum."
+    },
+    "activity7": {
+        "name": "Read a Book",
+        "duration": 60,
+        "cost": 0.0,
+        "people": 1,
+        "mood": "tired",
+        "description": "Dive into a novel or non-fiction at home."
+    },
+    "activity8": {
+        "name": "Rock Climbing",
+        "duration": 60,
+        "cost": 20.0,
+        "people": 2,
+        "mood": "adventurous",
+        "description": "Challenge yourself at an indoor climbing gym."
+    },
+    "activity9": {
+        "name": "Spa Day",
+        "duration": 120,
+        "cost": 50.0,
+        "people": 1,
+        "mood": "relaxed",
+        "description": "Pamper yourself with a spa treatment."
+    },
+    "activity10": {
+        "name": "Karaoke Night",
+        "duration": 90,
+        "cost": 10.0,
+        "people": 4,
+        "mood": "social",
+        "description": "Sing your heart out with friends."
+    },
+    "activity11": {
+        "name": "Picnic in the Park",
+        "duration": 60,
+        "cost": 5.0,
+        "people": 3,
+        "mood": "happy",
+        "description": "Enjoy a meal outdoors with friends or family."
+    },
+    "activity12": {
+        "name": "Listen to a Podcast",
+        "duration": 45,
+        "cost": 0.0,
+        "people": 1,
+        "mood": "tired",
+        "description": "Relax with an engaging podcast episode."
+    },
+    "activity13": {
+        "name": "Kayaking",
+        "duration": 90,
+        "cost": 25.0,
+        "people": 2,
+        "mood": "adventurous",
+        "description": "Paddle on a nearby lake or river."
+    },
+    "activity14": {
+        "name": "Yoga Session",
+        "duration": 45,
+        "cost": 5.0,
+        "people": 1,
+        "mood": "relaxed",
+        "description": "Stretch and unwind with a yoga class."
+    },
+    "activity15": {
+        "name": "Trivia Night",
+        "duration": 60,
+        "cost": 5.0,
+        "people": 4,
+        "mood": "social",
+        "description": "Test your knowledge at a local pub quiz."
+    },
+    "activity16": {
+        "name": "Bake Cookies",
+        "duration": 60,
+        "cost": 5.0,
+        "people": 2,
+        "mood": "happy",
+        "description": "Have fun baking sweet treats at home."
+    },
+    "activity17": {
+        "name": "Watch a Sunset",
+        "duration": 30,
+        "cost": 0.0,
+        "people": 1,
+        "mood": "tired",
+        "description": "Relax while watching a beautiful sunset."
+    },
+    "activity18": {
+        "name": "Bike Tour",
+        "duration": 90,
+        "cost": 10.0,
+        "people": 2,
+        "mood": "adventurous",
+        "description": "Cycle through scenic routes in your area."
+    },
+    "activity19": {
+        "name": "Massage",
+        "duration": 60,
+        "cost": 40.0,
+        "people": 1,
+        "mood": "relaxed",
+        "description": "Relieve stress with a professional massage."
+    },
+    "activity20": {
+        "name": "Dance Party",
+        "duration": 60,
+        "cost": 0.0,
+        "people": 4,
+        "mood": "social",
+        "description": "Dance to your favorite tunes with friends."
+    },
+    "activity21": {
+        "name": "Visit a Farmers Market",
+        "duration": 60,
+        "cost": 10.0,
+        "people": 2,
+        "mood": "happy",
+        "description": "Shop for fresh produce and local goods."
+    },
+    "activity22": {
+        "name": "Journaling",
+        "duration": 30,
+        "cost": 0.0,
+        "people": 1,
+        "mood": "tired",
+        "description": "Reflect on your day with a journaling session."
+    },
+    "activity23": {
+        "name": "Ziplining",
+        "duration": 60,
+        "cost": 30.0,
+        "people": 2,
+        "mood": "adventurous",
+        "description": "Experience an adrenaline rush with ziplining."
+    },
+    "activity24": {
+        "name": "Hot Bath",
+        "duration": 30,
+        "cost": 0.0,
+        "people": 1,
+        "mood": "relaxed",
+        "description": "Soak in a warm bath to unwind."
+    },
+    "activity25": {
+        "name": "Movie Marathon",
+        "duration": 120,
+        "cost": 0.0,
+        "people": 3,
+        "mood": "social",
+        "description": "Watch a series of movies with friends."
+    },
+    "activity26": {
+        "name": "Photography Walk",
+        "duration": 60,
+        "cost": 0.0,
+        "people": 1,
+        "mood": "happy",
+        "description": "Capture beautiful moments in your neighborhood."
+    },
+    "activity27": {
+        "name": "Deep Breathing Exercises",
+        "duration": 15,
+        "cost": 0.0,
+        "people": 1,
+        "mood": "tired",
+        "description": "Calm your mind with breathing exercises."
+    },
+    "activity28": {
+        "name": "Camping Trip",
+        "duration": 120,
+        "cost": 20.0,
+        "people": 3,
+        "mood": "adventurous",
+        "description": "Spend time in nature with a camping adventure."
+    },
+    "activity29": {
+        "name": "Aromatherapy",
+        "duration": 30,
+        "cost": 5.0,
+        "people": 1,
+        "mood": "relaxed",
+        "description": "Use essential oils to create a calming atmosphere."
+    },
+    "activity30": {
+        "name": "Potluck Dinner",
+        "duration": 90,
+        "cost": 5.0,
+        "people": 5,
+        "mood": "social",
+        "description": "Share dishes with friends at a potluck."
+    }
+}
