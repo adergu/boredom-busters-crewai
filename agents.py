@@ -1,0 +1,19 @@
+from crewai import Agent, Task
+from langchain_groq import ChatGroq
+from dotenv import load_dotenv
+import os
+import json
+
+# Load environment variables
+load_dotenv()
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+if not GROQ_API_KEY:
+    raise ValueError("GROQ_API_KEY not found in .env file")
+
+# Initialize Groq LLM
+llm = ChatGroq(
+    api_key=GROQ_API_KEY,
+    model_name="groq/llama3-70b-8192",  # Explicitly set provider prefix
+    temperature=0.5,
+    max_tokens=300
+)
