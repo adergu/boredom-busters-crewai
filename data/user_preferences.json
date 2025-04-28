@@ -1,459 +1,352 @@
 {
     "user1": {
-        "mood": "happy",
-        "time": 127,
-        "budget": 15.92,
-        "people": 1,
+        "mood": "adventurous",
+        "time": 154,
+        "budget": 65.31,
+        "people": 4,
         "history": []
     },
     "user2": {
         "mood": "social",
-        "time": 65,
-        "budget": 55.11,
+        "time": 56,
+        "budget": 87.25,
         "people": 4,
         "history": []
     },
     "user3": {
         "mood": "happy",
-        "time": 33,
-        "budget": 95.42,
+        "time": 32,
+        "budget": 15.57,
         "people": 5,
-        "history": [
-            {
-                "suggestions": [
-                    {
-                        "name": "Board Game Night",
-                        "duration": 60,
-                        "cost": 0.0,
-                        "people": 4,
-                        "mood": "social",
-                        "description": "Gather friends for a fun board game session."
-                    },
-                    {
-                        "name": "Picnic in the Park",
-                        "duration": 60,
-                        "cost": 5.0,
-                        "people": 3,
-                        "mood": "happy",
-                        "description": "Enjoy a meal outdoors with friends or family."
-                    },
-                    {
-                        "name": "Bake Cookies",
-                        "duration": 60,
-                        "cost": 5.0,
-                        "people": 2,
-                        "mood": "happy",
-                        "description": "Have fun baking sweet treats at home."
-                    },
-                    {
-                        "name": "Visit a Farmers Market",
-                        "duration": 60,
-                        "cost": 10.0,
-                        "people": 2,
-                        "mood": "happy",
-                        "description": "Shop for fresh produce and local goods."
-                    },
-                    {
-                        "name": "Potluck Dinner",
-                        "duration": 90,
-                        "cost": 5.0,
-                        "people": 5,
-                        "mood": "social",
-                        "description": "Share dishes with friends at a potluck."
-                    }
-                ],
-                "rating": 5,
-                "uf": 1.0,
-                "rs": 0.45,
-                "aes": 0.78,
-                "result": "Bad"
-            }
-        ]
+        "history": []
     },
     "user4": {
         "mood": "relaxed",
-        "time": 49,
-        "budget": 67.81,
-        "people": 6,
-        "history": [
-            {
-                "suggestions": [
-                    {
-                        "name": "Meditate",
-                        "duration": 20,
-                        "cost": 0.0,
-                        "people": 1,
-                        "mood": "relaxed",
-                        "description": "Find inner peace with a guided meditation session."
-                    },
-                    {
-                        "name": "Yoga Session",
-                        "duration": 45,
-                        "cost": 5.0,
-                        "people": 1,
-                        "mood": "relaxed",
-                        "description": "Stretch and unwind with a yoga class."
-                    },
-                    {
-                        "name": "Deep Breathing Exercises",
-                        "duration": 15,
-                        "cost": 0.0,
-                        "people": 1,
-                        "mood": "tired",
-                        "description": "Calm your mind with breathing exercises."
-                    },
-                    {
-                        "name": "Hot Bath",
-                        "duration": 30,
-                        "cost": 0.0,
-                        "people": 1,
-                        "mood": "relaxed",
-                        "description": "Soak in a warm bath to unwind."
-                    },
-                    {
-                        "name": "Listen to a Podcast",
-                        "duration": 45,
-                        "cost": 0.0,
-                        "people": 1,
-                        "mood": "tired",
-                        "description": "Relax with an engaging podcast episode."
-                    }
-                ],
-                "rating": 1,
-                "uf": 0.2,
-                "rs": 0.65,
-                "aes": 0.38,
-                "result": "Bad"
-            }
-        ]
-    },
-    "user5": {
-        "mood": "happy",
-        "time": 170,
-        "budget": 5.17,
-        "people": 3,
-        "history": []
-    },
-    "user6": {
-        "mood": "tired",
-        "time": 63,
-        "budget": 22.75,
+        "time": 44,
+        "budget": 62.82,
         "people": 2,
         "history": []
     },
-    "user7": {
+    "user5": {
+        "mood": "relaxed",
+        "time": 76,
+        "budget": 34.48,
+        "people": 1,
+        "history": []
+    },
+    "user6": {
         "mood": "happy",
-        "time": 85,
-        "budget": 6.58,
-        "people": 6,
+        "time": 144,
+        "budget": 7.46,
+        "people": 3,
+        "history": []
+    },
+    "user7": {
+        "mood": "tired",
+        "time": 141,
+        "budget": 65.35,
+        "people": 2,
         "history": []
     },
     "user8": {
-        "mood": "adventurous",
-        "time": 48,
-        "budget": 63.24,
-        "people": 4,
+        "mood": "happy",
+        "time": 65,
+        "budget": 75.04,
+        "people": 2,
         "history": []
     },
     "user9": {
-        "mood": "happy",
-        "time": 158,
-        "budget": 76.44,
-        "people": 6,
+        "mood": "social",
+        "time": 34,
+        "budget": 85.44,
+        "people": 1,
         "history": []
     },
     "user10": {
         "mood": "happy",
-        "time": 91,
-        "budget": 46.65,
-        "people": 1,
+        "time": 89,
+        "budget": 37.73,
+        "people": 6,
         "history": []
     },
     "user11": {
         "mood": "adventurous",
-        "time": 110,
-        "budget": 7.1,
+        "time": 31,
+        "budget": 90.09,
         "people": 4,
         "history": []
     },
     "user12": {
-        "mood": "social",
-        "time": 43,
-        "budget": 84.97,
-        "people": 4,
+        "mood": "tired",
+        "time": 176,
+        "budget": 71.84,
+        "people": 2,
         "history": []
     },
     "user13": {
-        "mood": "adventurous",
-        "time": 161,
-        "budget": 59.08,
+        "mood": "social",
+        "time": 55,
+        "budget": 24.32,
         "people": 4,
         "history": []
     },
     "user14": {
-        "mood": "relaxed",
-        "time": 129,
-        "budget": 70.1,
-        "people": 3,
+        "mood": "tired",
+        "time": 66,
+        "budget": 23.75,
+        "people": 4,
         "history": []
     },
     "user15": {
         "mood": "happy",
-        "time": 170,
-        "budget": 79.64,
-        "people": 2,
+        "time": 140,
+        "budget": 65.81,
+        "people": 5,
         "history": []
     },
     "user16": {
-        "mood": "happy",
-        "time": 65,
-        "budget": 95.33,
+        "mood": "tired",
+        "time": 89,
+        "budget": 42.5,
         "people": 2,
         "history": []
     },
     "user17": {
-        "mood": "happy",
-        "time": 130,
-        "budget": 44.45,
-        "people": 6,
+        "mood": "relaxed",
+        "time": 34,
+        "budget": 49.25,
+        "people": 3,
         "history": []
     },
     "user18": {
-        "mood": "relaxed",
-        "time": 49,
-        "budget": 0.12,
+        "mood": "adventurous",
+        "time": 124,
+        "budget": 31.95,
         "people": 2,
         "history": []
     },
     "user19": {
-        "mood": "adventurous",
-        "time": 104,
-        "budget": 24.35,
-        "people": 6,
-        "history": []
-    },
-    "user20": {
-        "mood": "social",
-        "time": 55,
-        "budget": 59.94,
+        "mood": "tired",
+        "time": 109,
+        "budget": 96.01,
         "people": 5,
         "history": []
     },
-    "user21": {
+    "user20": {
         "mood": "happy",
-        "time": 95,
-        "budget": 63.82,
-        "people": 2,
+        "time": 53,
+        "budget": 65.38,
+        "people": 6,
+        "history": []
+    },
+    "user21": {
+        "mood": "social",
+        "time": 71,
+        "budget": 76.63,
+        "people": 6,
         "history": []
     },
     "user22": {
-        "mood": "social",
-        "time": 85,
-        "budget": 82.69,
+        "mood": "adventurous",
+        "time": 164,
+        "budget": 44.04,
         "people": 4,
         "history": []
     },
     "user23": {
         "mood": "social",
-        "time": 37,
-        "budget": 91.95,
-        "people": 5,
+        "time": 168,
+        "budget": 28.05,
+        "people": 6,
         "history": []
     },
     "user24": {
         "mood": "social",
-        "time": 146,
-        "budget": 41.63,
+        "time": 53,
+        "budget": 53.76,
         "people": 4,
         "history": []
     },
     "user25": {
-        "mood": "tired",
-        "time": 107,
-        "budget": 77.83,
-        "people": 6,
+        "mood": "happy",
+        "time": 105,
+        "budget": 90.75,
+        "people": 5,
         "history": []
     },
     "user26": {
-        "mood": "happy",
-        "time": 56,
-        "budget": 69.52,
+        "mood": "social",
+        "time": 140,
+        "budget": 55.86,
         "people": 6,
         "history": []
     },
     "user27": {
         "mood": "adventurous",
-        "time": 142,
-        "budget": 19.18,
-        "people": 2,
+        "time": 176,
+        "budget": 18.24,
+        "people": 4,
         "history": []
     },
     "user28": {
-        "mood": "adventurous",
+        "mood": "relaxed",
         "time": 123,
-        "budget": 69.2,
-        "people": 1,
+        "budget": 77.19,
+        "people": 4,
         "history": []
     },
     "user29": {
-        "mood": "relaxed",
-        "time": 168,
-        "budget": 89.92,
-        "people": 1,
-        "history": []
-    },
-    "user30": {
-        "mood": "tired",
-        "time": 171,
-        "budget": 84.21,
-        "people": 3,
-        "history": []
-    },
-    "user31": {
         "mood": "happy",
-        "time": 116,
-        "budget": 15.8,
+        "time": 71,
+        "budget": 36.16,
         "people": 2,
         "history": []
     },
+    "user30": {
+        "mood": "social",
+        "time": 94,
+        "budget": 62.93,
+        "people": 5,
+        "history": []
+    },
+    "user31": {
+        "mood": "social",
+        "time": 152,
+        "budget": 34.78,
+        "people": 5,
+        "history": []
+    },
     "user32": {
-        "mood": "relaxed",
-        "time": 135,
-        "budget": 64.13,
-        "people": 4,
+        "mood": "tired",
+        "time": 140,
+        "budget": 17.74,
+        "people": 6,
         "history": []
     },
     "user33": {
-        "mood": "happy",
-        "time": 87,
-        "budget": 31.7,
-        "people": 4,
+        "mood": "adventurous",
+        "time": 66,
+        "budget": 12.49,
+        "people": 3,
         "history": []
     },
     "user34": {
         "mood": "tired",
-        "time": 41,
-        "budget": 38.04,
-        "people": 2,
+        "time": 62,
+        "budget": 44.17,
+        "people": 1,
         "history": []
     },
     "user35": {
-        "mood": "adventurous",
-        "time": 75,
-        "budget": 35.64,
+        "mood": "tired",
+        "time": 170,
+        "budget": 53.06,
         "people": 2,
         "history": []
     },
     "user36": {
-        "mood": "relaxed",
-        "time": 180,
-        "budget": 42.69,
-        "people": 6,
+        "mood": "adventurous",
+        "time": 106,
+        "budget": 5.51,
+        "people": 3,
         "history": []
     },
     "user37": {
-        "mood": "tired",
-        "time": 177,
-        "budget": 24.54,
-        "people": 5,
+        "mood": "happy",
+        "time": 71,
+        "budget": 72.22,
+        "people": 3,
         "history": []
     },
     "user38": {
-        "mood": "tired",
-        "time": 142,
-        "budget": 43.39,
+        "mood": "adventurous",
+        "time": 104,
+        "budget": 4.08,
         "people": 2,
         "history": []
     },
     "user39": {
-        "mood": "adventurous",
-        "time": 108,
-        "budget": 20.14,
-        "people": 4,
+        "mood": "happy",
+        "time": 33,
+        "budget": 69.51,
+        "people": 3,
         "history": []
     },
     "user40": {
-        "mood": "adventurous",
-        "time": 86,
-        "budget": 17.7,
-        "people": 1,
+        "mood": "tired",
+        "time": 80,
+        "budget": 42.28,
+        "people": 3,
         "history": []
     },
     "user41": {
-        "mood": "tired",
-        "time": 146,
-        "budget": 17.63,
-        "people": 5,
+        "mood": "social",
+        "time": 127,
+        "budget": 14.58,
+        "people": 3,
         "history": []
     },
     "user42": {
         "mood": "happy",
-        "time": 164,
-        "budget": 85.01,
+        "time": 84,
+        "budget": 52.03,
         "people": 6,
         "history": []
     },
     "user43": {
-        "mood": "social",
-        "time": 76,
-        "budget": 58.51,
+        "mood": "relaxed",
+        "time": 60,
+        "budget": 66.25,
         "people": 1,
         "history": []
     },
     "user44": {
-        "mood": "adventurous",
-        "time": 146,
-        "budget": 84.44,
+        "mood": "social",
+        "time": 157,
+        "budget": 47.94,
         "people": 6,
         "history": []
     },
     "user45": {
-        "mood": "tired",
-        "time": 59,
-        "budget": 11.95,
-        "people": 1,
+        "mood": "relaxed",
+        "time": 133,
+        "budget": 81.08,
+        "people": 6,
         "history": []
     },
     "user46": {
-        "mood": "adventurous",
+        "mood": "happy",
         "time": 155,
-        "budget": 1.49,
-        "people": 4,
+        "budget": 2.58,
+        "people": 1,
         "history": []
     },
     "user47": {
-        "mood": "social",
-        "time": 73,
-        "budget": 84.69,
-        "people": 4,
+        "mood": "adventurous",
+        "time": 145,
+        "budget": 9.44,
+        "people": 2,
         "history": []
     },
     "user48": {
-        "mood": "happy",
-        "time": 91,
-        "budget": 90.76,
-        "people": 3,
+        "mood": "adventurous",
+        "time": 64,
+        "budget": 61.32,
+        "people": 2,
         "history": []
     },
     "user49": {
         "mood": "tired",
-        "time": 104,
-        "budget": 38.43,
+        "time": 157,
+        "budget": 60.44,
         "people": 6,
         "history": []
     },
     "user50": {
-        "mood": "tired",
-        "time": 93,
-        "budget": 3.89,
-        "people": 6,
-        "history": []
-    },
-    "user51": {
-        "mood": "happy",
-        "time": 50,
-        "budget": 100.0,
-        "people": 2,
+        "mood": "relaxed",
+        "time": 141,
+        "budget": 11.11,
+        "people": 4,
         "history": []
     }
 }
