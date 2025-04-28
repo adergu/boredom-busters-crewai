@@ -58,7 +58,8 @@ def generate_activities():
 def save_json(file_path, data):
     with open(file_path, "w") as f:
         json.dump(data, f, indent=4)
-
+        f.write("\n")
+        f.write("// This file is auto-generated. Do not edit manually.\n")
 def main():
     ensure_directory()
     user_prefs = generate_user_preferences()
