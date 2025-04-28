@@ -29,3 +29,18 @@ def get_info_collector_task(constraints):
         agent=get_info_collector_agent()
     )
 
+def get_activity_recommender_task(prefs, activities):
+    return Task(
+        description=(
+            f"User preferences: mood={prefs['mood']}, time={prefs['time']} minutes, "
+            f"budget=${prefs['budget']}, people={prefs['people']}. "
+            f"Available activities: {json.dumps(activities, indent=2)}. "
+            "Suggest 3-5 activities that match the preferences. "
+            "Each activity must include name, duration (minutes), cost ($), people, mood, and description. "
+            "Return a JSON list wrapped in ```json\n...\n```, e.g., "
+            "```json\n[{\"name\": \"Activity\", \"duration\": 30, \"cost\": 0, \"people\": 1, \"mood\": \"tired\", \"description\": \"Description\"}]\n```. "
+            "Ensure output is valid JSON with no extra text."
+        ),
+        expected_output="A JSON list of 3-5 activities with required fields",
+        agent=get_activity_recommender_agent()
+    )
