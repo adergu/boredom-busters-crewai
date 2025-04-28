@@ -7,7 +7,7 @@
 - **Constraint Validation**: Ensures budget, time, and group size are within valid ranges.
 - **Activity Recommendations**: Suggests 3-5 activities matching user preferences from a predefined list.
 - **User Feedback**: Collects ratings (1-5) and calculates metrics (User Feedback, Relevance Score, Activity Effectiveness Score).
-- **Data Persistence**: Stores user preferences and history in `user_preferences.json` and activity details in `activities.json`.
+- **Data Persistence**: Stores user preferences and history in `data/user_preferences.json` and activity details in `data/activities.json`.
 
 ## Prerequisites
 - **Python**: Version 3.12 (recommended; Python 3.13 may have compatibility issues with some dependencies).
@@ -53,7 +53,7 @@
    Replace `your_groq_api_key_here` with your Groq API key.
 
 5. **Generate JSON Files**:
-   Run `generate_json.py` to create `user_preferences.json` (50 users) and `activities.json` (30 activities):
+   Run `generate_json.py` to create `data/user_preferences.json` (50 users) and `data/activities.json` (30 activities):
    ```bash
    python generate_json.py
    ```
@@ -61,7 +61,7 @@
 ## Usage
 1. **Run the Application**:
    ```bash
-   python main.py
+   python src/main.py
    ```
    The program displays a menu:
    ```
@@ -86,10 +86,10 @@
      Mood interpreted as: tired
      Preferences saved successfully.
      ```
-   - Updates `user_preferences.json`.
+   - Updates `data/user_preferences.json`.
 
 3. **Get Activity Suggestions** (Option 2):
-   - Enter a user ID (must exist in `user_preferences.json`).
+   - Enter a user ID (must exist in `data/user_preferences.json`).
    - Receive 3-5 activity suggestions with details (name, duration, cost, people, mood, description).
    - Rate the suggestions (1-5).
    - Example:
@@ -110,7 +110,7 @@
      Result: Bad
      Feedback saved.
      ```
-   - Updates `user_preferences.json` with history and metrics.
+   - Updates `data/user_preferences.json` with history and metrics.
 
 4. **Exit** (Option 3):
    - Closes the application.
@@ -118,15 +118,21 @@
 ## File Structure
 ```
 boredom-busters-crewai/
+├── agents/
+│   ├── mood_analyzer.py       # Mood Analyzer agent
+│   ├── info_collector.py      # Info Collector agent
+│   ├── activity_recommender.py # Activity Recommender agent
 ├── data/
 │   ├── user_preferences.json  # User preferences and history
-│   └── activities.json        # Predefined activities
+│   ├── activities.json        # Predefined activities
+├── tasks/
+│   ├── tasks.py               # Task definitions
+├── src/
+│   ├── main.py                # Main application
 ├── venv/                      # Virtual environment
 ├── .env                       # Environment variables (GROQ_API_KEY)
 ├── .gitignore                 # Git ignore file
 ├── requirements.txt           # Dependencies
-├── main.py                    # Main application
-├── agents.py                  # AI agents and tasks
 ├── generate_json.py           # Generates JSON data
 └── README.md                  # Project documentation
 ```
@@ -143,7 +149,7 @@ boredom-busters-crewai/
 
 ## Troubleshooting
 - **Error: `litellm.BadRequestError: LLM Provider NOT provided`**:
-  - Ensure `agents.py` uses `model_name="groq/llama3-70b-8192"`.
+  - Ensure agent files (`agents/*.py`) use `model_name="groq/llama3-70b-8192"`.
   - Verify `GROQ_API_KEY` in `.env` is valid (regenerate at [Groq Console](https://console.groq.com) if needed).
   - Reinstall dependencies:
     ```bash
@@ -153,7 +159,7 @@ boredom-busters-crewai/
 - **Error: `RetryError`**:
   - Indicates repeated API failures. Check Groq API status or key validity.
 - **JSON Files Missing**:
-  - Run `python generate_json.py` to create `user_preferences.json` and `activities.json`.
+  - Run `python generate_json.py` to create `data/user_preferences.json` and `data/activities.json`.
 - **Python Version Issues**:
   - Use Python 3.12 if Python 3.13 causes compatibility issues:
     ```bash
@@ -162,7 +168,7 @@ boredom-busters-crewai/
     pip install -r requirements.txt
     ```
 - **Invalid User ID**:
-  - Ensure the user ID exists in `user_preferences.json` or save preferences first (Option 1).
+  - Ensure the user ID exists in `data/user_preferences.json` or save preferences first (Option 1).
 
 ## Future Enhancements
 - **Geolocation Agent**: Add location-based activity suggestions (e.g., nearby parks or events).
@@ -172,7 +178,7 @@ boredom-busters-crewai/
   ```
   Create a web interface for user interaction.
 - **Additional Metrics**: Enhance performance metrics with more sophisticated calculations.
-- **Activity Expansion**: Add more activities to `activities.json`.
+- **Activity Expansion**: Add more activities to `data/activities.json`.
 
 ## Contributing
 - Fork the repository.
@@ -187,5 +193,3 @@ This project is licensed under the MIT License.
 ## Contact
 For issues or suggestions, open an issue on the repository or contact the project maintainers.
 
----
-*Generated on April 26, 2025*
